@@ -1,2 +1,7 @@
 *.class
 *.log
+bazel-bin
+bazel-out
+bazel-testlogs
+bazel-workspace
+explain.txt

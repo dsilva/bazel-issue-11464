@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package repro;
+
+message UUID {
+    fixed64 high_bits = 1;
+    fixed64 low_bits = 2;
+}
+
